@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Creates a variable named `name`. Sets the variable to be `Dane`
+// Checks if the name is exactly `Mary`. Since the name is `Dane`,
+// the console will log `How do you do?`
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First create a variable named secret, set to nothing. Then create a
+// Variable named code and set it to be `123`. Then if code is exactly 
+// `123`, which it is, will set secret to be `super` and code to be
+// doubled to 246. Then it will log the variable secret.
 
 //CODE
 /*
@@ -70,8 +70,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// Create and set isStudent to true, age to 34, and zip to 55407.
+// Then log `Welcome to Prime!`
 // 
 //
 
@@ -129,11 +129,14 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
+// FIX The variables are set backwards and values should be exchanged.
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX colorTwo needs to also be set to purple here.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -143,10 +146,12 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// FIX Time is set as a Constant, not a variable.
+
 /*
 let temp = 40;
 const time = 4;
-
+// FIX || should be && to be checking if both are true, not just one of them.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -156,10 +161,12 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+
 /*
 let age = 21;
 const minAge = 21;
 
+//FIX the logic is backwards here. Simply flip the log entries to be correct.
 if(minAge <= age) {
   console.log('no entry');
 } else {
